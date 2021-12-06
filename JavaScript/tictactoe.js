@@ -77,8 +77,8 @@ function checkWinConditions() {
     else if (arrayIncludes ('3X', '4X', '5X')) { drawWinLine (50, 304, 558, 304); }
     // X 6, 7, 8 condition
     else if (arrayIncludes ('6X', '7X', '8X')) { drawWinLine (50, 508, 558, 508); }
-    // X O 3, 6 condition
-    else if (arrayIncludes ('OX', '3X', '6X')) { drawWinLine (100, 50, 100, 558); }
+    // X 0 3, 6 condition
+    else if (arrayIncludes ('0X', '3X', '6X')) { drawWinLine (100, 50, 100, 558); }
     // X 1, 4, 7 condition
     else if (arrayIncludes ('1X', '4X', '7X')) { drawWinLine (304, 50, 304, 558); }
     // X 2, 5, 8 condition
